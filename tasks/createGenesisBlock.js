@@ -67,10 +67,10 @@ var config = {
     consoleLogLevel: "debug",
     trustProxy: false,
     db: {
-        host: "localhost",
+        host: "postgres",
         port: 5432,
         database: db_name,
-        user: null,
+        user: "postgres",
         password: "password",
         poolSize: 20,
         poolIdleTimeout: 30000,

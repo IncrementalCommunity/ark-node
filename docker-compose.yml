@@ -5,7 +5,7 @@ services:
     working_dir: /app
     volumes:
       - ".:/app"  
-    command: start.sh
+    command: start-node.sh
     ports:
       - 4100
     links:

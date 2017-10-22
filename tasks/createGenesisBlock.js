@@ -54,7 +54,7 @@ else {
 }
 
 // Total of premined token in satoshi. The premined accounts will be substracted to this
-var totalpremine = 2100000000000000;
+var totalpremine = 3200000000000000;
 
 
 // config file that will be tuned and exported
